@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisa's Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/eba0315ba3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <img src="Lisa.png" class="logo" alt="Lisa's Logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring Web Developer</p>
+                <h1>Hi, I'm <span>Lisa</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about1">
+                    <img src="E.jpg" alt="About Me Image">
+                </div>
+                <div class="about2">
+                    <h1 class="titles">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eos alias! Expedita provident natus reiciendis? Blanditiis, maiores. Odio earum quas itaque quibusdam inventore, quidem a dolore optio ratione temporibus accusamus.</p>
+                    <div class="tab-titles">
+                        <p class="tab-title active-link" onclick="opentab('services')">Services</p>
+                        <p class="tab-title" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-title" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="services">
+                        <ul>
+                            <li><span>HTML</span><br>Create Web Pages</li>
+                            <li><span>CSS</span><br>Style Web Pages</li>
+                            <li><span>JAVASCRIPT</span><br>Add Interactive Effects</li>
+                            <li><span>WEB DEVELOPMENT</span><br>Web App Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 - Current</span><br>Responsive Personal Portfolio Training</li>
+                            <li><span>2023 - 2025</span><br>Team Lead At Cisco</li>
+                            <li><span>2022 - 2023</span><br>Internship</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023/2024</span><br>University</li>
+                            <li><span>2017/2018 - 2023/2024</span><br>Secondary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div id="Skills">
+        <div class="container">
+            <h1 class="titles">Skills</h1>
+            <div class="skill-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed similique maxime soluta totam earum rerum quis dolore laboriosam dolor ipsam. Odio animi non quibusdam magni totam hic natus nihil maiores.</p>
+                    <a href="#contact">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>CSS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed similique maxime soluta totam earum rerum quis dolore laboriosam dolor ipsam. Odio animi non quibusdam magni totam hic natus nihil maiores.</p>
+                    <a href="#contact">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>JAVASCRIPT</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed similique maxime soluta totam earum rerum quis dolore laboriosam dolor ipsam. Odio animi non quibusdam magni totam hic natus nihil maiores.</p>
+                    <a href="#contact">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-code"></i>
+                    <h2>WEB DEVELOPER</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed similique maxime soluta totam earum rerum quis dolore laboriosam dolor ipsam. Odio animi non quibusdam magni totam hic natus nihil maiores.</p>
+                    <a href="#contact">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="titles">Portfolio</h1>
+            <div class="portfolio-list">
+                <div class="portfolio">
+                    <img src="A.jpg" alt="Portfolio Image 1">
+                </div>
+                <div class="portfolio">
+                    <img src="B.jpg" alt="Portfolio Image 2">
+                </div>
+                <div class="portfolio">
+                    <img src="C.jpg" alt="Portfolio Image 3">
+                </div>
+                <div class="portfolio">
+                    <img src="D.webp" alt="Portfolio Image 4">
+                </div>
+                <div class="portfolio">
+                    <img src="E.jpg" alt="Portfolio Image 5">
+                </div>
+                <div class="portfolio">
+                    <img src="I.jpg" alt="Portfolio Image 6">
+                </div>
+                <div class="portfolio">
+                    <img src="J.jpg" alt="Portfolio Image 7">
+                </div>
+                <div class="portfolio">
+                    <img src="K.jpg" alt="Portfolio Image 8">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="titles">Contact</h1>
+                    <p><i class="fa-solid fa-envelope"></i>aiborlisa25@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>08072485824</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="C:\Users\Admin\Desktop\Lisaa\idc.jpg" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="...@email.com" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Lisa <i class="fa-solid fa-heart"></i> 2023</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Tab functionality
+        var tablinks = document.getElementsByClassName("tab-title");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        // Hamburger menu functionality
+        function toggleMenu() {
+            const navLinks = document.querySelector('nav ul');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
